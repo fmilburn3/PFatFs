@@ -1,0 +1,5 @@
+To generate an empty file of fixed size enter the fsutil command-line utility (which has been around since Windows XP!).
+
+fsutil file createnew t_write 1500
+ 
+That last number is a little annoying; the file size is in bytes.  Who works in bytes anymore?
