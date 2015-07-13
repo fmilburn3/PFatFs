@@ -1,0 +1,55 @@
+#######################################
+# Syntax Coloring Map For FatFs
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+FATFS		KEYWORD1DIRECT		KEYWORD1
+FIL		KEYWORD1
+FILINFO		KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+# Functions for Local Disk Control
+
+begin		KEYWORD2
+initialize	KEYWORD2
+timerproc	KEYWORD2
+
+# Functions in the FatFS Interface
+
+mount		KEYWORD2
+open		KEYWORD2
+read		KEYWORD2
+write		KEYWORD2
+lseek		KEYWORD2
+close		KEYWORD2
+opendir		KEYWORD2
+readdir		KEYWORD2
+stat		KEYWORD2
+getfree		KEYWORD2
+truncate	KEYWORD2
+sync		KEYWORD2
+unlink		KEYWORD2
+mkdir		KEYWORD2
+chmod		KEYWORD2
+utime		KEYWORD2
+rename		KEYWORD2
+forward		KEYWORD2
+mkfs		KEYWORD2
+chdir		KEYWORD2
+chdrive		KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+FS		KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
